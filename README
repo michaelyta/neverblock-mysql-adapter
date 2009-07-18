@@ -9,7 +9,7 @@ Installation and Usage
 
 3. Finally, update config/database.yml :
       production:
-          adapter:  mysqlplus
+          adapter:  neverblock_mysql
           database: myapp_production
           username: root
           password:  
