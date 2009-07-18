@@ -1,0 +1,16 @@
+Installation and Usage
+======================
+
+1. First, you need to get mysqlplus: sudo gem install mysqlplus
+2. Then, get the mysql neverblock adapter : sudo gem install michaelyta-neverblock-mysql-adapter -s http://gems.github.com
+3. Finally, update config/database.yml :
+      production:
+          adapter:  mysqlplus
+          database: myapp_production
+          username: root
+          password:  
+          host: localhost
+          pool: 6
+
+And you are done, this will work seamlessly, no need to update any application code.
+
